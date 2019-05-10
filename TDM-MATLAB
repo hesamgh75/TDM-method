@@ -10,7 +10,7 @@ clear all
   for i=1:m
    b(i)=input('bi:')% b= main diag of matrix 
    end
-   for i=1:i-1
+   for i=1:m-1
    c(i)=input('ci:')% c= uper diag of matrix
     end
 c(m)=0
